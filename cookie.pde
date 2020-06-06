@@ -1,5 +1,5 @@
 //Cookie
-size(400,400);
+size(200,200);
 background(240, 240, 255);
 
 // COOKIE
