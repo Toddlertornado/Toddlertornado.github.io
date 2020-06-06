@@ -1,5 +1,6 @@
 //Cookie
-background(255, 255, 255);
+size(320,320);
+background(240, 240, 255);
 
 // COOKIE
 noStroke();
