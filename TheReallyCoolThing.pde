@@ -1,5 +1,5 @@
 background(100,125,0);
-size(1400,700);
+size(1500,800);
 var c = random(0,255);
 
 var c2 = random(0,255);
