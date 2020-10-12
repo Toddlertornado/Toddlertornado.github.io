@@ -24,10 +24,11 @@
   
 */
 
+
 println("Welcome to my text adventure.");
 draw = function() {
   if(keyIsPressed && keyCode === 65){
-  prinln("Ask");
+  println("Ask");
 }
 
 if(keyIsPressed && keyCode === 70){
