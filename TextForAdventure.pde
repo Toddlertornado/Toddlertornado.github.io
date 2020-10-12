@@ -26,31 +26,31 @@
 
 println("Welcome to my text adventure.");
 draw = function (){
-  if(keyIsPressed && keyCode === A){
+  if(keyIsPressed && keyCode === 65){
   prinln("Ask");
 }
 
-if(keyIsPressed && keyCode === F){
+if(keyIsPressed && keyCode === 70){
 println("False");
 }
 
-if(keyIsPressed && keyCode === G){
+if(keyIsPressed && keyCode === 71){
 println("Grab");
 }
 
-if(keyIsPressed && keyCode === N){
+if(keyIsPressed && keyCode === 78){
 println("No");
 }
 
-if(keyIsPressed && keyCode === T){
+if(keyIsPressed && keyCode === 84){
 println("True");
 }
 
-if(keyIsPressed && keyCode === U){
+if(keyIsPressed && keyCode === 85){
 println("Use");
 }
 
-if(keyIsPressed && keyCode === Y){
+if(keyIsPressed && keyCode === 89){
 println("Yes");
 }
 
