@@ -26,33 +26,77 @@
 
 
 println("Welcome to my text adventure.");
-draw = function() {
-  if(keyIsPressed && keyCode === 65){
-  println("Ask");
-}
+println("Instructions: ");
+println("Space- Transition text");
+println("Arrow keys- up, down, left, or right");
+println("A- Ask");
+println("T- True");
+println("F- False");
+println("Y- Yes");
+println("N- No");
+println("G- Grab");
+println("U- Use");
 
-if(keyIsPressed && keyCode === 70){
-println("False");
-}
+keyPressed = function() {
 
-if(keyIsPressed && keyCode === 71){
-println("Grab");
-}
+//Space	32
+if(keyCode===32){
+      println("Transition");
+  }
 
-if(keyIsPressed && keyCode === 78){
-println("No");
-}
-
-if(keyIsPressed && keyCode === 84){
-println("True");
-}
-
-if(keyIsPressed && keyCode === 85){
-println("Use");
-}
-
-if(keyIsPressed && keyCode === 89){
-println("Yes");
-}
-
+//arrow left	37
+if(keyCode===37){
+      println("Left");
+  }
+  
+//arrow up	38
+if(keyCode===38){
+      println("Up");
+  }
+  
+//arrow right	39
+if(keyCode===39){
+      println("Right");
+  }
+  
+//arrow down	40
+if(keyCode===40){
+      println("Down");
+  }
+  
+//a	65
+if(keyCode===65){
+      println("Ask");
+  }
+  
+//f	70
+if(keyCode===70){
+      println("False");
+  }
+  
+//g	71
+if(keyCode===71){
+      println("Grab");
+  }
+  
+//n	78
+if(keyCode===78){
+      println("No");
+  }
+    
+//t	84
+if(keyCode===84){
+      println("True");
+  }
+  
+//u	85
+if(keyCode===85){
+      println("Use");
+  }
+  
+//y	89
+if(keyCode===89){
+      println("Yes");
+  }
+  
 };
