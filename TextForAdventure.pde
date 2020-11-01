@@ -15,7 +15,9 @@ println("Welcome to my text adventure.");
 println("Instructions: ");
 println("Space- Transition text");
 println("Arrow keys- up, down, left, or right");
-println("A- Ask");
+println("A- Choice 1");
+println("B- Choice 2");
+println("C- Choice 3");
 println("T- True");
 println("F- False");
 println("Y- Yes");
@@ -52,7 +54,17 @@ if(keyCode===40){
   
 //a	65
 if(keyCode===65){
-      println("Ask");
+      println("A");
+  }
+  
+//b  66
+if(keyCode===66){
+      println("B");
+  }
+  
+//c 67  
+if(keyCode===67){
+      println("C");
   }
   
 //f	70
